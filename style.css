@@ -28,7 +28,7 @@
     padding: 5px;
 }
 .Receipt-hrader{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray ;
     padding: 5px;
     margin: 8px;
 }
@@ -54,10 +54,26 @@
 }
 .accountant-Signature{
     text-align: right;
-    margin-top: 40px;
+    margin-top: 250px;
     font-size: 20px;
     margin-right: 15px;
 }
 .stamp{
-    height: 400px;
+    height: 200px;
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+}
+.Receipt-body{
+    position: relative;
+    border-bottom: 1px gray solid;
+    padding: 5px;
+    margin: 8px;
+}
+.Receipt-footer{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 25px;
+    background-color: darkkhaki;
 }
